@@ -4,6 +4,14 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+  cursor: pointer;
+}
+
+p, h2, h3, h4 {
+  cursor: default;
+}
+
 body, html {
   overflow-x: hidden;
 }
@@ -97,6 +105,7 @@ nav {
 .intro-contacts p {
   font-size: 18px;
   margin-right: 60px;
+  cursor: pointer;
 }
 
 .stats {
@@ -132,6 +141,12 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #F6F587;
+  transition: 0.5s ease;
 }
 
 .stats-square {
@@ -158,6 +173,7 @@ nav {
   max-width: 348px;
   background: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .card-container {
@@ -220,6 +236,7 @@ nav {
   margin-left: -4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  cursor: pointer;
 }
 
 .all {
@@ -230,6 +247,7 @@ nav {
   margin-left: 40px;
   margin-top: 52px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .buttons-search {
@@ -257,6 +275,11 @@ nav {
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  cursor: pointer;
+}
+
+.stepblock p, h4 {
+  cursor: pointer;
 }
 
 .stepblock .step-num {
@@ -382,6 +405,7 @@ nav {
   max-width: 344px;
   background: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .agent-card:hover {
@@ -450,6 +474,7 @@ nav {
   font-size: 13px;
   line-height: 30px;
   margin-left: 130px;
+  cursor: pointer;
 }
 
 .add-line-right {
@@ -469,6 +494,7 @@ nav {
   margin-left: 130px;
   color: #fff;
   margin-top: 60px;
+  cursor: pointer;
 }
 
 footer {
@@ -831,6 +857,10 @@ hr {
     flex-wrap: wrap;
     margin-left: 5%;
     padding-right: 5%;
+  }
+
+  h2, h3, h4 {
+    text-align: center;
   }
 }
 
